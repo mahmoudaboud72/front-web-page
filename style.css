@@ -1,0 +1,141 @@
+*{
+    font-family: 'Tangerine', serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration-line: none;
+    overflow: hidden;
+    
+    
+}
+
+body{
+    background-image: url(./WhatsApp\ Image\ 2024-03-02\ at\ 2.32.30\ PM.jpeg);
+    background-size:  cover;
+    background-repeat: no-repeat;
+    background-position-y: 100%;
+    
+    
+}
+
+header{
+    margin-top: 55px;
+    padding: 10px 100px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    color: white;
+    font-size: large;
+    
+}
+
+.home{
+    color: white; 
+    padding: 14px 16px;
+    display: inline-block;
+    border-radius: 4px;
+    
+}
+
+.home:hover{
+    background-color: #fff; /* Change the background color on hover */
+    color: black;
+    border-radius: 5px;
+    transition: ease-in-out 0.5s;
+    
+}
+
+
+.num{
+    color: black;
+    margin-left: 90px;
+    text-align: right;
+}
+
+section{
+    margin-top: 250px;
+    margin-left: 33%;
+}
+
+.center-text{
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
+
+.top-text{
+    font-size: 40px;
+    font-weight: 100;
+    text-align: center; 
+}
+
+.adjust-first-text{
+    margin-right: 30px;
+    text-align: center;
+}
+
+.adjust-mid-text{
+    margin-left: 33px;
+    text-align: center;
+}
+
+.lower-text{
+    color: rgb(242, 223, 223,1);
+    padding-left: 40px;
+    font-size: small;
+    text-align: center;
+    height: 15px;
+}
+
+.lower-text2{
+    color: rgb(242, 223, 223,1);
+    padding-right: 44px;
+    font-size: small;
+    text-align: center;
+}
+
+.button{
+    padding-right: 20px;
+    background: scroll;
+}
+
+
+.Our-Services{
+    
+    color: white;
+    font-size:medium;  
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    box-shadow: 2px;
+    border: 2px solid #e7e7e7;
+    border-radius: 4px;
+}
+
+.Our-Services:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.Contact-us{
+    
+    color: white;
+    font-size:medium;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    border: 2px solid #fff;
+}
+
+.Contact-us:hover{
+    background-color: white;
+    color: black;
+}
